@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     grid-area: AS;
@@ -9,7 +10,7 @@ export const MenuContainer = styled.div`
     margin-top: 55px;
 `;
 
-export const MenuItemLink = styled.a`
+export const MenuItemLink = styled(Link)`
     cursor: pointer;
     text-decoration: none;
 `;

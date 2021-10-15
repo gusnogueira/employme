@@ -13,27 +13,27 @@ import iconeProcessos from '../../../../assets/IconeProcessos.svg';
 const Aside: React.FC = () => (
   <Container>
     <MenuContainer>
-      <MenuItemLink href="/processos">
+      <MenuItemLink to="/processos">
         <Icone src={iconeProcessos} />
         <LabelIcone>Processos</LabelIcone>
       </MenuItemLink>
 
-      <MenuItemLink href="/dashboard">
+      <MenuItemLink to="/dashboard">
         <Icone src={iconeDashboard} />
         <LabelIcone>Dashboard</LabelIcone>
       </MenuItemLink>
 
-      <MenuItemLink href="#">
+      <MenuItemLink to="#">
         <Icone src={iconeCompromissos} />
         <LabelIcone>Agenda</LabelIcone>
       </MenuItemLink>
 
-      <MenuItemLink href="#">
+      <MenuItemLink to="#">
         <Icone src={iconeEmpresas} />
         <LabelIcone>Empresas</LabelIcone>
       </MenuItemLink>
 
-      <MenuItemLink href="#">
+      <MenuItemLink to="#">
         <Icone src={iconeVagas} />
         <LabelIcone>Vagas</LabelIcone>
       </MenuItemLink>
