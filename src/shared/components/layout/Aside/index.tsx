@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-  Container, Icone, MenuContainer, LabelIcone, MenuItemLink,
+  Container, Icone, MenuContainer, LabelIcone, MenuItemLink, ItemContainer,
 } from './styles';
 
 import iconeCompromissos from '../../../../assets/IconeCompromissos.svg';
@@ -14,28 +14,38 @@ const Aside: React.FC = () => (
   <Container>
     <MenuContainer>
       <MenuItemLink to="/processos">
-        <Icone src={iconeProcessos} />
-        <LabelIcone>Processos</LabelIcone>
+        <ItemContainer>
+          <Icone src={iconeProcessos} />
+          <LabelIcone>Processos</LabelIcone>
+        </ItemContainer>
       </MenuItemLink>
 
       <MenuItemLink to="/dashboard">
-        <Icone src={iconeDashboard} />
-        <LabelIcone>Dashboard</LabelIcone>
+        <ItemContainer>
+          <Icone src={iconeDashboard} />
+          <LabelIcone>Dashboard</LabelIcone>
+        </ItemContainer>
       </MenuItemLink>
 
       <MenuItemLink to="#">
-        <Icone src={iconeCompromissos} />
-        <LabelIcone>Agenda</LabelIcone>
+        <ItemContainer>
+          <Icone src={iconeCompromissos} />
+          <LabelIcone>Agenda</LabelIcone>
+        </ItemContainer>
       </MenuItemLink>
 
       <MenuItemLink to="#">
-        <Icone src={iconeEmpresas} />
-        <LabelIcone>Empresas</LabelIcone>
+        <ItemContainer>
+          <Icone src={iconeEmpresas} />
+          <LabelIcone>Empresas</LabelIcone>
+        </ItemContainer>
       </MenuItemLink>
 
       <MenuItemLink to="#">
-        <Icone src={iconeVagas} />
-        <LabelIcone>Vagas</LabelIcone>
+        <ItemContainer>
+          <Icone src={iconeVagas} />
+          <LabelIcone>Vagas</LabelIcone>
+        </ItemContainer>
       </MenuItemLink>
     </MenuContainer>
   </Container>

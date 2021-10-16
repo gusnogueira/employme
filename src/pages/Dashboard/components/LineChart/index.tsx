@@ -74,10 +74,10 @@ export default function LineChart() {
             type="monotone"
             dataKey="Abordagens"
             stroke="#3346F0"
-            strokeWidth={2}
+            strokeWidth={3}
           />
-          <Line type="monotone" dataKey="Respostas" stroke="#FC5050" strokeWidth={2} />
-          <Line type="monotone" dataKey="Contratações" stroke="#82ca9d" strokeWidth={2} />
+          <Line type="monotone" dataKey="Respostas" stroke="#FC5050" strokeWidth={3} />
+          <Line type="monotone" dataKey="Contratações" stroke="#83ca9d" strokeWidth={2} />
         </LineChartRecharts>
       </ResponsiveContainer>
     </Container>
